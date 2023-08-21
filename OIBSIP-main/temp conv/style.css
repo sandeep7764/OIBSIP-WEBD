@@ -1,0 +1,37 @@
+html{
+	background: linear-gradient(to bottom right,#ff774d, #ffb0f9);
+	background-repeat: no-repeat;
+	background-size: 100vw 100vh;
+	font-family: cursive, monospace, sans-serif;
+	font-size: 3vmin;
+}
+#main{
+	display: inline-block;
+	padding: 4vw;
+	line-height: 8vh;
+	margin-left: 30vw;
+	margin-top: 20vh;
+}
+.main_container{
+	border-end-end-radius: 3vw;
+	border: 0.2rem double brown;
+}
+.input{
+	text-align: center;
+	color: #132020;
+	font-family: cursive, monospace, sans-serif;
+	font-size: .9rem;
+	padding: .2rem;
+	border: none;
+	background-color: transparent;
+	border-bottom: .06rem dashed; brown;
+}
+.sub_but{
+	box-shadow: 0.09rem 0.09rem #d04949;
+	border-bottom: .05rem solid; brown;
+	border-radius: .2rem;
+}
+.sub_but:active{
+	box-shadow: 0.05rem 0.05rem #d04949;
+	transform: translateY(0.05rem);
+}
